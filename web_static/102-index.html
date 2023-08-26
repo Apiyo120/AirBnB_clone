@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/icon.png">
+    <link rel="stylesheet" href="styles/102-common.css">
+    <link rel="stylesheet" href="styles/102-header.css">
+    <link rel="stylesheet" href="styles/102-footer.css">
+    <link rel="stylesheet" href="styles/102-filters.css">
+    <link rel="stylesheet" href="styles/102-places.css">
+    <title>AirBnB clone</title>
+  </head>
+  <body>
+    <header>
+      <div class="mobile_nav">
+        <label for="main_check" class="main_nav_burguer">|||</label>
+        <input type="checkbox" id="main_check" name="main_check" class="main_nav_check">
+          <nav>
+              <ul class="nav_bar_level1">
+                <li>
+                    <label for="second_check"><span>States</span></label>
+                    <input type="checkbox" name="second_check" id="second_check">
+                  <ul>
+                    <li><span>Kenya</span></li>
+                    <li><span>Kenya</span></li>
+                  </ul>
+                  </li>
+                <li>
+                  <label for="third_check"><span>Amenities</span></label>
+                  <input type="checkbox" name="second_check" id="third_check">
+                  <ul>
+                    <li><span>Internet</span></li>
+                    <li><span>Tv</span></li>
+                    <li><span>Wifi</span></li>
+                    <li><span>Kitchen</span></li>
+                    <li><span>Iron</span></li>
+                  </ul>
+                  </li>
+              </ul>
+        </nav><!-- final del main_nav_bar -->
+      </div>
+    </header>
+    <div class="container">
+      <section class="filters">
+        <div class="locations">
+          <h3>States</h3>
+          <h4>Nairobi, Kenya...</h4>
+          <ul class="popover">
+            <li><h2>Nairobi:</h2>
+              <ul>
+                <li>Page</li>
+                <li>Page2</li>
+              </ul>
+            </li>
+            <li><h2>Kenya:</h2>
+              <ul>
+                <li>Kilimani</li>
+                <li>Karen</li>
+              </ul>
+            </li>
+            </ul>
+        </div>
+        <div class="amenities">
+          <h3>Amenities</h3>
+          <h4>Internet, Kitchen...</h4>
+          <ul class="popover">
+            <li>Internet</li>
+            <li>Tv</li>
+            <li>Kitchen</li>
+            <li>Iron</li>
+          </ul>
+        </div>
+        <button type="button" name="button">Search</button>
+      </section> <!-- end fiter-->
+
+      <section class="places">
+        <h1>Places</h1>
+        <article><!-- My home -->
+          <div class="article_places_header">
+            <h2>My home</h2>
+            <div class="price_by_night">$80</div>
+          </div>
+          <div class="information">
+            <div class="max_guest">2 Guests</div>
+            <div class="number_rooms">1 Bedroom</div>
+            <div class="number_bathrooms">1 Bathroom</div>
+          </div><!-- end information -->
+          <div class="user">
+            <p><b>Owner:</b> Paul Odhiambo</p>
+          </div><!-- end user -->
+          <div class="description">
+            <p> This is a lovely 1 bathroom apartament that accommodates 2 people. It is located at the highway and next to a railway station, 1 stop to Nivas supermarket, 2 stops to the Amrican Embassy, 3 stops to Cheka Cafe</p>
+          </div><!-- end description -->
+          <div class="amenities">
+            <h2>Amenities</h2>
+            <ul>
+              <li>
+                <div class="places_amenities_pet_friendly"></div>
+                Pet friendly
+            </li>
+              <li>
+                <div class="places_amenities_tv"></div>
+                Tv
+            </li>
+              <li>
+                <div class="places_amenities_wifi"></div>
+                Wifi
+            </li>
+            </ul>
+          </div>
+          <div class="reviews">
+            <h2>2 Reviews</h2>
+            <ul>
+              <li>
+                <h3>From Aggrey Osodo the 17th August 2023</h3>
+                <p>This is a beautiful place!</p>
+              </li>
+              <li>
+                <h3>From Chris 14th August 2022</h3>
+                <p>Higly recommended!</p>
+              </li>
+            </ul>
+          </div>
+        </article><!-- end My home -->
+
+        <article>
+          <h2>Tiny house</h2>
+          <div class="price_by_night">$65</div>
+          <div class="information">
+            <div class="max_guest">4 Guests</div>
+            <div class="number_rooms">2 Bedrooms</div>
+            <div class="number_bathrooms">1 Bathroom</div>
+          </div><!-- end information -->
+          <div class="user">
+            <p><b>Owner:</b> Thuo</p>
+          </div><!-- end user -->
+          <div class="description">
+            <p>The loft is a private stand alone guest hous located just a three minutes drive from Wilson Airpot and five minutes from the Carnivore grounds.Our guest house is a 500 square ft by 600 square height. There is a full bathroom and an expansive balcony that you can easily see the sun setting down the mountains. We have a mini kitchen, equiped with fridge, oven, and various kitchen utencils. We are pet friendly but restricted to dogs and cats only. In addition, we have free wifi in the room.</p>
+          </div><!-- end description -->
+          <div class="amenities">
+            <h2>Amenities</h2>
+            <ul>
+              <li>
+                <div class="places_amenities_pet_friendly"></div>
+                Pet friendly
+            </li>
+            </ul>
+          </div>
+          <div class="reviews">
+            <h2>1 Review</h2>
+            <ul>
+              <li>
+                <h3>From Edith the 15th August 2023</h3>
+                <p>Risper is an epic host. Nothing more i can say. 5 star!</p>
+              </li>
+              <li>
+                <h3>From Chris 14th August 2022</h3>
+                <p>Higly recommended!</p>
+              </li>
+            </ul>
+          </div>
+        </article>
+
+        <article>
+          <h2>A suite</h2>
+          <div class="price_by_night">$190</div>
+          <div class="information">
+            <div class="max_guest">5 Guests</div>
+            <div class="number_rooms">3 Bedroom</div>
+            <div class="number_bathrooms">2 Bathroom</div>
+          </div><!-- end information -->
+          <div class="user">
+            <p><b>Owner:</b> Jabali Wadi</p>
+          </div><!-- end user -->
+          <div class="description">
+            <p>The Micasa, It has a decked terrace, jacuzzi, modern firepit, two rooms, two balconies, entrance gate, private garden, private parking, BBQ area, AC in each bedroom, luxury beds, and mountain views. Ideal for romantic dates, or having a good time. It is a unique space of its kind.</p>
+          <div class="amenities">
+            <h2>Amenities</h2>
+            <ul>
+              <li>
+                <div class="places_amenities_pet_friendly"></div>
+                Pet friendly
+            </li>
+              <li>
+                <div class="places_amenities_tv"></div>
+                Tv
+            </li>
+              <li>
+                <div class="places_amenities_wifi"></div>
+                Wifi
+            </li>
+            </ul>
+          </div>
+          <div class="reviews">
+            <h2>1 Review</h2>
+            <ul>
+              <li>
+                <h3>From George Ooko the 26th August 2023</h3>
+                <p>I love this place. Amazing!</p>
+              </li>
+            </ul>
+          </div>
+        </article>
+
+        <article><!-- My home -->
+          <div class="article_places_header">
+            <h2>My house</h2>
+            <div class="price_by_night">$50</div>
+          </div>
+          <div class="information">
+            <div class="max_guest">2 Guests</div>
+            <div class="number_rooms">1 Bedroom</div>
+            <div class="number_bathrooms">1 Bathroom</div>
+          </div><!-- end information -->
+          <div class="user">
+            <p><b>Owner:</b>James Mathenge</p>
+          </div><!-- end user -->
+          <div class="description">
+            <p>This is a lovely 1 bathroom apartament that can accommodate 2 people. It locates at the center of Nairobi, with affordable electric buses for travelling and next to Two Rivers stop to Maasai Market, 2 stops to Gigiri, 3 stops to The rump.</p>
+          </div><!-- end description -->
+          <div class="amenities">
+            <h2>Amenities</h2>
+            <ul>
+              <li>
+                <div class="places_amenities_pet_friendly"></div>
+                Pet friendly
+            </li>
+              <li>
+                <div class="places_amenities_tv"></div>
+                Tv
+            </li>
+              <li>
+                <div class="places_amenities_wifi"></div>
+                Wifi
+            </li>
+            </ul>
+          </div>
+          <div class="reviews">
+            <h2>2 Reviews</h2>
+            <ul>
+              <li>
+                <h3>From Edith the 27th August 2023</h3>
+                <p> Nothing more i can say. 5 star!</p>
+              </li>
+              <li>
+                <h3>From Chris 14th August 2023</h3>
+                <p>Higly recommended!</p>
+              </li>
+            </ul>
+          </div>
+        </article><!-- end My home -->
+
+        <article><!-- My home -->
+          <div class="article_places_header">
+            <h2>Sandy Villas</h2>
+            <div class="price_by_night">$79</div>
+          </div>
+          <div class="information">
+            <div class="max_guest">2 Guests</div>
+            <div class="number_rooms">1 Bedroom</div>
+            <div class="number_bathrooms">1 Bathroom</div>
+          </div><!-- end information -->
+          <div class="user">
+            <p><b>Owner:</b>Lulu Lemon</p>
+          </div><!-- end user -->
+          <div class="description">
+            <p>The Micasa, It has a decked terrace, jacuzzi, modern firepit, two rooms, two balconies, entrance gate, private garden, private parking, BBQ area, AC in each bedroom, luxury beds, and mountain views. Ideal for romantic dates, or having a good time. It is a unique space of its kind.</p>
+          </div><!-- end description -->
+          <div class="amenities">
+            <h2>Amenities</h2>
+            <ul>
+              <li>
+                <div class="places_amenities_pet_friendly"></div>
+                Pet friendly
+            </li>
+              <li>
+                <div class="places_amenities_tv"></div>
+                Tv
+            </li>
+              <li>
+                <div class="places_amenities_wifi"></div>
+                Wifi
+            </li>
+            </ul>
+          </div>
+          <div class="reviews">
+            <h2>2 Reviews</h2>
+            <ul>
+              <li>
+                <h3>From Edith the 27th August 2023</h3>
+                <p>Nothing more i can say. 5 star!</p>
+              </li>
+              <li>
+                <h3>From Chris 6th January 2022</h3>
+                <p>Higly recommended!</p>
+              </li>
+            </ul>
+          </div>
+        </article><!-- end My home -->
+
+        <article><!-- My home -->
+          <div class="article_places_header">
+            <h2>Big head</h2>
+            <div class="price_by_night">$80</div>
+          </div>
+          <div class="information">
+            <div class="max_guest">8 Guests</div>
+            <div class="number_rooms">1 Bedroom</div>
+            <div class="number_bathrooms">1 Bathroom</div>
+          </div><!-- end information -->
+          <div class="user">
+            <p><b>Owner:</b> Lulu Lory</p>
+          </div><!-- end user -->
+          <div class="description">
+            <p>The Micasa, It has a decked terrace, jacuzzi, modern firepit, two rooms, two balconies, entrance gate, private garden, private parking, BBQ area, AC in each bedroom, luxury beds, and mountain views. Ideal for romantic dates, or having a good time. It is a unique space of its kind.</p>
+          </div><!-- end description -->
+          <div class="amenities">
+            <h2>Amenities</h2>
+            <ul>
+              <li>
+                <div class="places_amenities_pet_friendly"></div>
+                Pet friendly
+            </li>
+              <li>
+                <div class="places_amenities_tv"></div>
+                Tv
+            </li>
+              <li>
+                <div class="places_amenities_wifi"></div>
+                Wifi
+            </li>
+            </ul>
+          </div>
+          <div class="reviews">
+            <h2>2 Reviews</h2>
+            <ul>
+              <li>
+                <h3>From Edith the 20th August 2022</h3>
+                <p>Nothing more i can say. 5 star!</p>
+              </li>
+              <li>
+                <h3>From Chris 4th August 2022</h3>
+                <p>Higly recommended!</p>
+              </li>
+            </ul>
+          </div>
+        </article><!-- end My home -->
+
+        </section> <!-- end section -->
+    </div>
+    <footer>
+      <p>Best School</p>
+    </footer>
+  </body>
+</html>
